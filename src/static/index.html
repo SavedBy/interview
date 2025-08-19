@@ -5,15 +5,28 @@
   <link rel="stylesheet" href="/index.css">
   <script async src="/app.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" />
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mina">
   <title>SavedBy Mock Store</title>
 </head>
 
 <body>
-  <header>
+  <header class="header">
+    <h1>SavedBy Store</h1>
+    <span class="cart-icon">shopping_cart_svg</span>
   </header>
 
-  <main>
+  <main class="main-content">
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search products...">
+    </div>
+
+    <h2>Products</h2>
+
+    <div class="product-grid-container" id="productList">
+    </div>
   </main>
+  <script src="app.js"></script>
 </body>
 
 </html>
